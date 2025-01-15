@@ -1,3 +1,10 @@
+/*
+* Program that searches through an array of 50
+* random elements and finds the second maximum
+* integer. Then writes the results to the memory
+* location just after the array ends
+*/
+
 // Creating an array of 50 random integers
 int intArray[50] = {
   45, 23, 89, 12, 67, 34, 90, 21, 54, 78,
@@ -6,7 +13,6 @@ int intArray[50] = {
   92, 17, 44, 62, 70, 36, 50, 80, 95, 37,
   19, 46, 25, 68, 32, 71, 39, 22, 58, 99
 };
-
 
 void setup() {
   // Beginning connection between the board and the console
@@ -53,6 +59,5 @@ Serial.print(*result_location);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
