@@ -22,6 +22,10 @@ int gNumberOfOccurences = 0;
 
 void setup() 
 {
+  // Setting LED pins to an output
+  pinMode(GREENLED, OUTPUT);
+  pinMode(REDLED, OUTPUT);
+  
   // Initializing serial communication and the variable to track where
   // in the pattern we currently are
   Serial.begin(9600);
