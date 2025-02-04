@@ -4281,7 +4281,7 @@
 		(uuid "c3a31311-8045-43b2-9c5b-7d8c88a93408")
 	)
 	(label "temp_sensor"
-		(at 30.48 59.69 180)
+		(at 29.21 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
